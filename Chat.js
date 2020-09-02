@@ -25,8 +25,7 @@ function Chat() {
     // db user
     const [{ user }, dispatch] = useStateProviderValue();
 
-    
-    // 2:28:00
+   
     useEffect (() => {
         if (roomId) {
             // rooms
