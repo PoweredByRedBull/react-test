@@ -8,7 +8,6 @@
 }
 
 .app_body {
-  /* We want everything to follow flex rules */
   display: flex;
   background-color: #ededed;
   margin-top: -50px;
