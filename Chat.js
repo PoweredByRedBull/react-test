@@ -46,7 +46,7 @@ function Chat() {
         }
     }, [roomId])
 
-    // hook inside of react
+    // hook inside of react.
     useEffect(() => {
         setSeed(Math.floor(Math.random() * 5000));
     }, [roomId]);
